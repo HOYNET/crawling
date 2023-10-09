@@ -4,7 +4,6 @@
 * create a new conda environment
 ```
     conda create --name [your_enviroment_name]
-
 ```
 
 * install requirements
