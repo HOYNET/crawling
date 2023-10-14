@@ -11,3 +11,7 @@
     pip install pykrx fsspec chardet
     pip install yfinance
 ```
+
+* Preparing Data for Crawling
+
+** Manually create or Receive Data for tickers of NASDAQ Stock
