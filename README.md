@@ -10,8 +10,8 @@
 ```
     pip install pykrx fsspec chardet
     pip install yfinance
-```<br>
-
+```
+<br>
 ## Preparing Data for Crawling
 
 > 1. Receive Data for tickers of NASDAQ Stock in the root of the Project as a csv file <br>
