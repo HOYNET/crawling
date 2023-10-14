@@ -10,7 +10,7 @@
 ```
     pip install pykrx fsspec chardet
     pip install yfinance
-```
+```<br>
 
 ## Preparing Data for Crawling
 
