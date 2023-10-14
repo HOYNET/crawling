@@ -31,7 +31,8 @@
 Set the start_date and end_date of the Crawling in the main.py<br>
 Set the kospi_ticker_code for which the data you are searching for<br><br>
 📌 If the Crawling resoucre runs out during the process, manually change the ticker code csv file<br>
-📌크롤링 리소스 부족으로 인해 전체 ticker_code에 대해 데이터 수집이 안될 경우<br>csv파일의 ticker_code를 나눠서 진행해주세요
+    크롤링 리소스 부족으로 인해 전체 ticker_code에 대해 데이터 수집이 안될 경우<br>
+    csv파일의 ticker_code를 나눠서 진행해주세요
 
 ```
     python main.py
