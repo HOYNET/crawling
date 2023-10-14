@@ -19,6 +19,6 @@
 
 * Activate Crawling
 ```
-    conda main.py
+    python main.py
 ```
 
