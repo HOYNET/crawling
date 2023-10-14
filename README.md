@@ -16,7 +16,8 @@
 ## Preparing Data for Crawling
 
 > 1. Receive Data for tickers of NASDAQ Stock in the root of the Project as a csv file <br>
-> 2. Make sure that the ticker_codes are in the 2nd column of the csv file<br>
+> 2. Make sure that the ticker_codes are in the 2nd column of the csv file
+
 |isin_cd|tck_iem_cd|
 |---|---|
 |US00211V1061|AACG|
