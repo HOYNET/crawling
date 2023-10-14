@@ -16,8 +16,8 @@
 
 > 1. Receive Data for tickers of NASDAQ Stock in the root of the Project as a csv file <br>
 > 2. Make sure that the ticker_codes are in the 2nd column of the csv file<br><br>
-> 대회에서 주어진 NASDAQ_FC_STK_IEM_IFO.csv 파일의 일부분만 깃허브에 등재되었습니다.
-> 추가적인 데이터 수집이 필요한 경우 수집을 하고 싶은 ticker_code들을 csv파일안에 추가 해주시면 됩니다👷‍♂️<br>
+대회에서 주어진 NASDAQ_FC_STK_IEM_IFO.csv 파일의 일부분만 깃허브에 등재되었습니다.<br>
+추가적인 데이터 수집이 필요한 경우 수집을 하고 싶은 ticker_code들을 csv파일안에 추가 해주시면 됩니다👷‍♂️<br>
 
 |isin_cd|tck_iem_cd|...|...|
 |---|---|---|---|
