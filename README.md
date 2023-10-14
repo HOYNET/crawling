@@ -14,4 +14,4 @@
 
 * Preparing Data for Crawling
 
-> > > Manually create or Receive Data for tickers of NASDAQ Stock
+> > > Manually create or Receive Data for tickers of NASDAQ Stock in the root of the Project
