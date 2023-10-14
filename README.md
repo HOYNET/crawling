@@ -26,6 +26,9 @@
 
 ## Activation
 
+> + Set the start_date and end_date of the Crawling in the main.py
+> + Set the kospi_ticker_code for which the data you are searching for 
+
 ```
     python main.py
 ```
