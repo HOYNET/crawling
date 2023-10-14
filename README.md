@@ -26,8 +26,8 @@
 
 ## Activation
 
-+ Set the start_date and end_date of the Crawling in the main.py
-+ Set the kospi_ticker_code for which the data you are searching for
+Set the start_date and end_date of the Crawling in the main.py
+Set the kospi_ticker_code for which the data you are searching for
 📌 If the Crawling resoucre runs out during the process, manually change the ticker code csv file
 
 ```
