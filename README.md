@@ -38,5 +38,5 @@ Set the kospi_ticker_code for which the data you are searching for<br><br>
     python main.py
 ```
 
-👷‍♂️ If you want to merge the files into 1 file manually change the index of the for loop and activate the nasdaq_merge function<br>
+👷‍♂️ If you want to merge the files into 1 file remove the annotation and activate the nasdaq_merge function<br>
 NASDAQ 폴더 안에 있는 파일들을 하나로 합쳐놓고 싶으실 경우 마지막 줄에 있는 nasdaq_merge 함수의 주석을 지워주세요.
