@@ -99,24 +99,17 @@ def indicator_merge(origianl_csv, merged_csv):
 
 def nasdaq_merge(file_path):
 
-    # csv_name = './NASDAQ/NASDAQ_DATA'
-    csv_name = nasdaqdata_path + '/' + nasdaq_output_file[0:len(nasdaq_output_file)-4]
     total_stock = pd.DataFrame()
 
-    for i in range(1,6):
+    csv_files = [file for file in os.listdir(nasdaqdata_path) if file.endswith('.csv')]
 
-        if i==0:
-            continue
-        
-        elif i==1:
-            merge_file = csv_name + '.csv'
-        
-        else:    
-            merge_file = csv_name + str(i) + '.csv'
+
+    for csv_file in csv_files:
+        merge_file = os.path.join(nasdaqdata_path, csv_file)
         ind_stock_data = pd.read_csv(merge_file)
         total_stock = pd.concat([total_stock, ind_stock_data])
 
-    total_stock.to_csv(file_path)
+    total_stock.to_csv(file_path, index=False)
 
 
 if __name__ == "__main__":
@@ -134,11 +127,10 @@ if __name__ == "__main__":
     nasdaq_crawl(file_path, nas_file_path)
     indicator_merge(nas_file_path, ind_nas_file_path)
 
-    # KOSPI Crawling implement
+    # # KOSPI Crawling implement
     kospi_crawl = KOS_StockDownloader(stock, start_date, end_date)
     kospi_crawl.execute(kospi_ticker_code)
     kospi_crawl.save_data(kos_file_path)
 
     # NASDAQ Data Merging
     # nasdaq_merge(merged_nas_file_path)
-
